@@ -69,8 +69,8 @@ class Contact extends Component {
                   <li>
                     <Globe />
                     <span>
-                      <a href="http://www.janetkulyk.com/">
-                        www.janetkulyk.com
+                      <a href="https://www.jkulyk.com/">
+                        www.jkulyk.com
                       </a>
                     </span>
                   </li>
