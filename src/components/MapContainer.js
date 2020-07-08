@@ -24,9 +24,7 @@ class MapContainer extends Component {
     return (
       <Map>
         <MapWithAMarker
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${
-            keys.google_maps_api_key
-          }&v=3.exp&libraries=geometry,drawing,places`}
+          googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${google_maps_api_key}&v=3.exp&libraries=geometry,drawing,places`}
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div style={{ height: `255px` }} />}
           mapElement={<div style={{ height: `100%` }} />}
