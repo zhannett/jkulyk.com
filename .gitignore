@@ -1,0 +1,15 @@
+node_modules
+tmp
+.vscode/
+.cache/
+.idea/
+dist/
+.env
+.DS_Store
+coverage/
+src/components/config/keys.js
+src/components/config/
+src/pages/Game.js
+src/pages/Photogalleries.js
+src/pages/Portfolio.js
+src/assets/img/
