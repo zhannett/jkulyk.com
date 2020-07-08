@@ -61,7 +61,7 @@ class Home extends Component {
                 aria-label="CSS3 Demo: Kinetic Typography"
               >
                 <img
-                  src="http://janetkulyk.s3.amazonaws.com/img/ad_css3_125x125.png"
+                  src="https://s3.amazonaws.com/jkulyk.com/assets/img/ad_css3_125x125.png"
                   alt="CSS3 Demo: Kinetic Typography"
                 />
               </a>
