@@ -10,8 +10,8 @@ import Header from "../components/shared/Header";
 import media from "../mediaTemplate";
 import SmallStar from "../svgComponents/SmallStar";
 import MediumOrangeStar from "../svgComponents/MediumOrangeStar";
-import Remote from "../assets/img/remote.gif";
-import RemoteA from "../assets/img/remote_a.gif";
+// import Remote from "https://s3.amazonaws.com/jkulyk.com/assets/img/remote.gif";
+// import RemoteA from "https://s3.amazonaws.com/jkulyk.com/assets/img/remote_a.gif";
 
 const DT = styled.div`
   display: block;
@@ -58,12 +58,12 @@ const ExternalLink = styled.div`
   display: inline;
   flex-direction: row;
   padding-left: 16px;
-  background: url(${Remote}) no-repeat 0 8px;
+  background: url("https://s3.amazonaws.com/jkulyk.com/assets/img/remote.gi") no-repeat 0 8px;
   ${media.phone`
     flex-direction: column;
   `};
   &:hover {
-    background: #e2e2e2 url(${RemoteA}) no-repeat 0 8px;
+    background: #e2e2e2 url(https://s3.amazonaws.com/jkulyk.com/assets/img/remote.gi) no-repeat 0 8px;
   }
 `;
 
