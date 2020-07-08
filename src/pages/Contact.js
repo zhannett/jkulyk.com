@@ -99,7 +99,7 @@ class Contact extends Component {
                   </li>
                 </ul>
               </Vcard>
-              {/*<MapContainer />*/}
+              {<MapContainer />}
             </Blocks>
           </div>
         </main>
