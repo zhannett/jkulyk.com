@@ -13,8 +13,8 @@ import * as Layout from "../components/shared/Layout";
 import "../assets/css/react-accessible-accordion.css";
 import Header from "../components/shared/Header";
 import W3C from "../components/shared/W3C";
-import Remote from "../assets/img/remote.gif";
-import RemoteA from "../assets/img/remote_a.gif";
+// import Remote from "../assets/img/remote.gif";
+// import RemoteA from "../assets/img/remote_a.gif";
 import media from "../mediaTemplate";
 
 const Lists = styled.div`
@@ -25,10 +25,10 @@ const Lists = styled.div`
 
 const ExternalLink = styled.div`
   padding-left: 16px;
-  background: url(${Remote}) no-repeat 0 8px;
+  background: url("https://s3.amazonaws.com/jkulyk.com/assets/img/remote.gif") no-repeat 0 8px;
   text-align: left;
   &:hover {
-    background: #e2e2e2 url(${RemoteA}) no-repeat 0 8px;
+    background: #e2e2e2 url(https://s3.amazonaws.com/jkulyk.com/assets/img/remote_a.gif) no-repeat 0 8px;
   }
 `;
 
