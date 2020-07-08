@@ -7,7 +7,7 @@ import media from "../mediaTemplate";
 const Portrait = styled.div`
   min-width: 220px;
   height: 220px;
-  background: url("https://www.jkulyk.com/me3.png");
+  background: url("https://s3.amazonaws.com/jkulyk.com/assets/img/me3.png");
   clip-path: circle(50%);
   ${media.desktop`
     min-width: 190px;
