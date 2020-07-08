@@ -1,2 +1,2 @@
-# zhannett.xyz
-personal website (2019, React.js)
+# jkulyk.com
+personal website (2020, React.js)
