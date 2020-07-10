@@ -125,6 +125,7 @@ class W3C extends Component {
             target="_blank"
             rel="noopener"
             alt="styled-components"
+            aria-label="Styled Components"
           >
             <LogoContainer style={{ paddingTop: "12px" }}>
               <StyledComponentsIcon />
