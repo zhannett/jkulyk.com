@@ -8,6 +8,7 @@ import IconReact from "../../svgComponents/IconReact";
 import IconCloud from "../../svgComponents/IconCloud";
 import CSS3 from "../../svgComponents/CSS3";
 
+
 const Wrapper = styled.div`
   display: flex;
   a,
@@ -36,7 +37,7 @@ const LogoContainer = styled.div`
 const StyledComponentsIcon = styled.div`
   width: 56px;
   height: 25px;
-  background: url("https://s3.amazonaws.com/jkulyk.com/assets/img/styled-components-icon.png") no-repeat center;
+  background: url("assets/img/styled-components-icon.png") no-repeat center;
 `;
 
 
