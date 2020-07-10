@@ -120,7 +120,7 @@ class W3C extends Component {
           >
             <LogoContainer style={{ paddingTop: "12px" }}>
               <img
-                src="https://www.styled-components.com/icon.png"
+                src="https://s3.amazonaws.com/jkulyk.com/styled-components-icon.png"
                 width="56"
                 height="26"
                 alt="styled-components"
