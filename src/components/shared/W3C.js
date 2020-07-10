@@ -33,6 +33,13 @@ const LogoContainer = styled.div`
   margin-top: 16px;
 `;
 
+const StyledComponentsIcon = styled.div`
+  width: 56px;
+  height: 25px;
+  background: url("https://s3.amazonaws.com/jkulyk.com/assets/img/styled-components-icon.png") no-repeat center;
+`;
+
+
 class W3C extends Component {
   constructor(props) {
     super(props);
@@ -119,12 +126,7 @@ class W3C extends Component {
             alt="styled-components"
           >
             <LogoContainer style={{ paddingTop: "12px" }}>
-              <img
-                src="https://s3.amazonaws.com/jkulyk.com/styled-components-icon.png"
-                width="56"
-                height="26"
-                alt="styled-components"
-              />
+              <StyledComponentsIcon />
               <ReactTooltip />
             </LogoContainer>
           </a>
