@@ -53,7 +53,7 @@ class Home extends Component {
                 551 BC – 479 BC
               </cite>
             </blockquote>
-
+{/*
             <div className="title_css3_demo">
               <a
                 href="../assets/video/kinetic-typography-video/"
@@ -66,6 +66,7 @@ class Home extends Component {
                 />
               </a>
             </div>
+*/}
           </div>
         </aside>
       </div>
