@@ -58,12 +58,15 @@ const ExternalLink = styled.div`
   display: inline;
   flex-direction: row;
   padding-left: 16px;
-  background: url("https://s3.amazonaws.com/jkulyk.com/assets/img/remote.gif") no-repeat 0 8px;
+  background: url("https://s3.amazonaws.com/jkulyk.com/assets/img/remote.gif")
+    no-repeat 0 8px;
   ${media.phone`
     flex-direction: column;
   `};
   &:hover {
-    background: #e2e2e2 url(https://s3.amazonaws.com/jkulyk.com/assets/img/remote_a.gif) no-repeat 0 8px;
+    background: #e2e2e2
+      url(https://s3.amazonaws.com/jkulyk.com/assets/img/remote_a.gif) no-repeat
+      0 8px;
   }
 `;
 
@@ -99,7 +102,7 @@ class Skills extends Component {
     super(props);
 
     this.state = {
-      newwin: false
+      newwin: false,
     };
 
     this.toggleCheckboxChange = this.toggleCheckboxChange.bind(this);

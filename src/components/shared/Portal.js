@@ -1,8 +1,8 @@
-export React, {Component} from 'react';
+export React, { Component } from "react";
 
-class ToolTip extends Component{
-	constructor(props) {
-  	super(props);
+class ToolTip extends Component {
+  constructor(props) {
+    super(props);
   }
 
   componentDidMount() {}
@@ -10,12 +10,12 @@ class ToolTip extends Component{
   componentWillUnmount() {}
 
   render() {
-  	let {state} = this;
+    let { state } = this;
     return (
-        <div id="tooltip" className="on right">
-            <div className="tooltip-arrow"></div>
-            <div className="tooltip-inner">ToolTip Component</div>
-        </div>
+      <div id="tooltip" className="on right">
+        <div className="tooltip-arrow"></div>
+        <div className="tooltip-inner">ToolTip Component</div>
+      </div>
     );
   }
 }

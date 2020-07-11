@@ -31,8 +31,7 @@ class MapContainer extends Component {
           containerElement={<div style={{ height: `255px` }} />}
           mapElement={<div style={{ height: `100%` }} />}
         />
-        </Map>
-        
+      </Map>
     );
   }
 }

@@ -17,7 +17,7 @@ class NewWindow extends Component {
     super(props);
 
     this.state = {
-      newwin: false
+      newwin: false,
     };
 
     this.toggleCheckbox = this.toggleCheckbox.bind(this);

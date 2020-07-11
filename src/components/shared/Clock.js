@@ -12,7 +12,7 @@ const options = {
   weekday: "long",
   year: "numeric",
   month: "long",
-  day: "numeric"
+  day: "numeric",
 };
 
 class Clock extends React.Component {
@@ -20,7 +20,7 @@ class Clock extends React.Component {
     super(props);
     this.state = {
       date: new Date().toLocaleDateString("en-US", options),
-      time: new Date().toLocaleTimeString("en-US", { hour12: false })
+      time: new Date().toLocaleTimeString("en-US", { hour12: false }),
     };
   }
 
@@ -35,7 +35,7 @@ class Clock extends React.Component {
   tick() {
     this.setState({
       date: new Date().toLocaleDateString("en-US", options),
-      time: new Date().toLocaleTimeString("en-US", { hour12: false })
+      time: new Date().toLocaleTimeString("en-US", { hour12: false }),
     });
   }
 

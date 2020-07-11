@@ -22,7 +22,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      theme: "light"
+      theme: "light",
     };
     // this.toggleTheme = this.toggleTheme.bind(this);
   }

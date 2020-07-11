@@ -9,7 +9,6 @@ import IconCloud from "../../svgComponents/IconCloud";
 import IconTravis from "../../svgComponents/IconTravis";
 import CSS3 from "../../svgComponents/CSS3";
 
-
 const Wrapper = styled.div`
   display: flex;
   a,
@@ -40,7 +39,6 @@ const StyledComponentsIcon = styled.div`
   height: 25px;
   background: url("assets/img/styled-components-icon.png") no-repeat center;
 `;
-
 
 class W3C extends Component {
   constructor(props) {
@@ -86,7 +84,7 @@ class W3C extends Component {
                   top: "22px",
                   left: "14px",
                   fontSize: "16px",
-                  color: "#fff"
+                  color: "#fff",
                 }}
               >
                 AWS
@@ -114,7 +112,10 @@ class W3C extends Component {
             alt="CodePen"
             aria-label="CodePen"
           >
-            <LogoContainer data-tip="CodePen" style={{ paddingTop: "8px", paddingLeft: "8px" }}>
+            <LogoContainer
+              data-tip="CodePen"
+              style={{ paddingTop: "8px", paddingLeft: "8px" }}
+            >
               <IconCodePen />
               <ReactTooltip />
             </LogoContainer>
@@ -141,7 +142,10 @@ class W3C extends Component {
             alt="Travis CI"
             aria-label="TravisCI"
           >
-            <LogoContainer data-tip="TravisCI" style={{ paddingTop: "8px", paddingLeft: "8px"}}>
+            <LogoContainer
+              data-tip="TravisCI"
+              style={{ paddingTop: "8px", paddingLeft: "8px" }}
+            >
               <IconTravis />
               <ReactTooltip />
             </LogoContainer>
@@ -151,7 +155,7 @@ class W3C extends Component {
             data-tip="CSS3"
             style={{
               paddingTop: "4px",
-              position: "relative"
+              position: "relative",
             }}
           >
             <span
@@ -159,7 +163,7 @@ class W3C extends Component {
                 position: "absolute",
                 top: "2px",
                 left: "-7px",
-                overflow: "visible"
+                overflow: "visible",
               }}
             >
               <CSS3 />

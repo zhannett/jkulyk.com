@@ -21,7 +21,7 @@ class Education extends Component {
     super(props);
 
     this.state = {
-      newwin: false
+      newwin: false,
     };
 
     this.toggleCheckboxChange = this.toggleCheckboxChange.bind(this);
