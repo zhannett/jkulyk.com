@@ -6,6 +6,7 @@ import IconCodePen from "../../svgComponents/IconCodePen";
 import IconGithub from "../../svgComponents/IconGithub";
 import IconReact from "../../svgComponents/IconReact";
 import IconCloud from "../../svgComponents/IconCloud";
+import IconTravis from "../../svgComponents/IconTravis";
 import CSS3 from "../../svgComponents/CSS3";
 
 
@@ -113,7 +114,7 @@ class W3C extends Component {
             alt="CodePen"
             aria-label="CodePen"
           >
-            <LogoContainer data-tip="CodePen" style={{ paddingTop: "8px" }}>
+            <LogoContainer data-tip="CodePen" style={{ paddingTop: "8px", paddingLeft: "8px" }}>
               <IconCodePen />
               <ReactTooltip />
             </LogoContainer>
@@ -133,10 +134,23 @@ class W3C extends Component {
             </LogoContainer>
           </a>
 
+          <a
+            href="https://travis-ci.org/"
+            target="_blank"
+            rel="noopener"
+            alt="Travis CI"
+            aria-label="TravisCI"
+          >
+            <LogoContainer data-tip="TravisCI" style={{ paddingTop: "8px", paddingLeft: "8px"}}>
+              <IconTravis />
+              <ReactTooltip />
+            </LogoContainer>
+          </a>
+
           <LogoContainer
             data-tip="CSS3"
             style={{
-              paddingTop: "12px",
+              paddingTop: "4px",
               position: "relative"
             }}
           >
