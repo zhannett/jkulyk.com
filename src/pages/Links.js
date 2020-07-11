@@ -207,6 +207,10 @@ class Links extends Component {
                           "https://gist.github.com/stevekinney/6ab02582829f039b6a14c973923909f8",
                           "AWS for Frontend Engineers"
                         )}
+                        {this.renderExternalLink(
+                          "https://hackernoon.com/hosting-static-react-websites-on-aws-s3-cloudfront-with-ssl-924e5c1344556a14c973923909f8",
+                          "AWS for Frontend Hosting Static React Websites on AWS S3 (& CloudFront) with SSL"
+                        )}
                       </ul>
                     </AccordionItemPanel>
                   </AccordionItem>
